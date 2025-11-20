@@ -37,7 +37,7 @@ Flask Small Coding App/
     └── index.html
 ```
 
-### Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
