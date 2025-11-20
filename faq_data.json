@@ -1,0 +1,18 @@
+[
+    {
+        "question": "How do I enroll for a course?",
+        "answer": "You enroll for courses through the MyMetropolia system under the Studies > Enrollments section."
+    },
+    {
+        "question": "Where can I find my class schedule?",
+        "answer": "Class schedules are available in Lukkarikone. Log in using your Metropolia username and password."
+    },
+    {
+        "question": "How do I reset my Metropolia password?",
+        "answer": "Use the password reset service at password.metropolia.fi or contact IT Support."
+    },
+    {
+        "question": "Where is IT support located?",
+        "answer": "IT support is available on each campus and can also be contacted through the Helpdesk portal."
+    }
+]
