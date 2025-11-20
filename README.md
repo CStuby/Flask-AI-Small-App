@@ -42,7 +42,7 @@ Flask Small Coding App/
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/CStuby/Flask-AI-Small-App.git
-   cd Flask-AI-Small-App
+   cd Flask-AI-Small-App-main
    ```
 2. **Install dependencies**:
    ```bash
