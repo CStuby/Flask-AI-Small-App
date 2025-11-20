@@ -2,7 +2,7 @@
 
 A lightweight Flask web application that uses AI to answer common questions about Metropolia services. 
 The app helps users get quick answers from a curated FAQ dataset by using Google Gemini 2.5 Flash to interpret the question and match it to known answers.
-If the answer isn’t available, the assistant responds politely and safely.
+If the answer isn’t available, the assistant politely responds that it doesn't have the available information.
 
 ## 🚀 Features
 
