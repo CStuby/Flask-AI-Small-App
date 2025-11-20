@@ -74,9 +74,9 @@ Flask Small Coding App/
 
     - Answers only from the dataset
 
-    - Responds with a fallback message otherwise
+    - Otherwise, it responds with a "Sorry, I don't have information about that yet."
 
-4. The model returns the best answer
+4. The model returns the best answer from the dataset
 
 5. The UI displays it instantly
 
