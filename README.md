@@ -42,7 +42,7 @@ Flask Small Coding App/
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/CStuby/Flask-AI-Small-App.git
-   cd prototype-linkedin-future
+   cd Flask-AI-Small-App
    ```
 2. **Install dependencies**:
    ```bash
@@ -50,7 +50,7 @@ Flask Small Coding App/
    ```
 3. **Set your API key (Windows)**: 
    ```bash
-   setx OPENAI_API_KEY "your_api_key_here"
+   setx GOOGLE_API_KEY "your_api_key_here"
    ```
 4. **Run the app**:
    ```bash
