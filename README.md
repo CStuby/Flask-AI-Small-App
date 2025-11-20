@@ -48,15 +48,19 @@ Flask Small Coding App/
    ```bash
    pip install -r requirements.txt
    ```
-3. **Set your API key (Windows)**: 
+3. **Get your API key**:
+   ```bash
+   Get one at: https://aistudio.google.com/app/api-keys
+   ```
+4. **Set your API key (Windows)**: 
    ```bash
    setx GOOGLE_API_KEY "your_api_key_here"
    ```
-4. **Run the app**:
+5. **Run the app**:
    ```bash
    python app.py
    ```
-5. **Open your browser at**:
+6. **Open your browser at**:
    ```
    http://127.0.0.1:5000
    ```
