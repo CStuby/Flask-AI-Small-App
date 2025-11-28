@@ -21,7 +21,7 @@ Students may find information about:
 - Schedules  
 - IT services  
 
-These answers are scattered across various platforms.  
+These answers can be scattered across various platforms.  
 This assistant centralizes the info and uses AI to respond in a user-friendly way.
 
 ## 📁 Project Structure
@@ -68,24 +68,30 @@ Flask Small Coding App/
 
 1. User enters a question
 
-2. Flask sends the question plus the FAQ dataset to Gemini
+2. Flask composes a prompt containing:
 
-3. Prompt engineering ensures the model:
+    - the FAQ dataset
 
-    - Answers only from the dataset
+    - the user’s question
 
-    - Otherwise, it responds with a "Sorry, I don't have information about that yet."
+    - strict instructions
 
-4. The model returns the best answer from the dataset
+3. Gemini processes the input
 
-5. The UI displays it instantly
+4. If the answer exists, Gemini returns the matching FAQ
+
+5. If not, it responds with:
+    "Sorry, I don't have information about that yet."
+
+6. The UI displays the result
 
 ## 🛠️ Tech Stack
 
 - Python
 - Flask
 - HTML / Jinja2 templates
-- OpenAI-compatible LLM API
+- Google Gemini API (genai)
+- JSON dataset
 
 ## 📜 License
 
